@@ -14,7 +14,7 @@ clc
 
 addpath(genpath('./libsvm-3.22/matlab'));
 
-dataset = ExpDatasetHIV();
+dataset = ExpDatasetSYN();
 [train_data, train_label] = dataset.load();
 test_data = train_data; % for demo purpose
 

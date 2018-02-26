@@ -1,12 +1,12 @@
 classdef ExpDatasetSYN < ExpDataset
     
     methods
-       function s = ExpDatasetSYN()
+        function s = ExpDatasetSYN()
             s = s@ExpDataset('Synthetic', 'multi-view data');
-       end
+        end
         
-       function [train_data, train_label, test_data, test_label] = load(...
-               varargin)
+        function [train_data, train_label, test_data, test_label] = load(...
+                varargin)
             num_samples = randi(100);
             num_view = randi(10);
             index = [];
@@ -25,6 +25,6 @@ classdef ExpDatasetSYN < ExpDataset
             test_data = [];
             test_label = [];
             return;
-       end
+        end
     end
 end

@@ -1,7 +1,7 @@
 % Reference:
 % Bokai Cao, Lifang He, Xiangnan Kong, Philip S. Yu, Zhifeng Hao and 
 % Ann B. Ragin. Tensor-based Multi-view Feature Selection with Applications
-% to Brain Diseases. In ICDM 2015.
+% to Brain Diseases. In ICDM 2014.
 %
 % Dependency:
 % Chih-Chung Chang and Chih-Jen Lin. 
